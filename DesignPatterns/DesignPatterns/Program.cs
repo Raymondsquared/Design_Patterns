@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using DesignPatterns.Abstractions;
+using DesignPatterns.FactoryMethod.Solution;
 using DesignPatterns.Strategy.Solution;
 
 namespace DesignPatterns
@@ -16,6 +17,7 @@ namespace DesignPatterns
         {
             IList<IDesignPattern> dessignPatterns = new List<IDesignPattern>();
             dessignPatterns.Add(new StrategyDesignPattern());
+            dessignPatterns.Add(new FactoryMethodDesignPattern());
 
             return dessignPatterns;
         }
@@ -24,7 +26,7 @@ namespace DesignPatterns
         {
             foreach (var dessignPattern in inputCollection)
             {
-                Console.WriteLine($"Design Pattern Type : {dessignPattern.GetType()}");
+                Console.WriteLine($"Design Pattern Type : {dessignPattern.GetType().Name}");
 
                 Console.WriteLine($"{Environment.NewLine}");
                 dessignPattern.Run();                

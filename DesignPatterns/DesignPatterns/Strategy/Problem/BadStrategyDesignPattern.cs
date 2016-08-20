@@ -11,7 +11,7 @@ namespace DesignPatterns.Strategy.Problem
             
         }
 
-        public CONSTANTS.DESIGN_PATTERN_TYPE GetType()
+        public CONSTANTS.DESIGN_PATTERN_TYPE Type()
         {
             return CONSTANTS.DESIGN_PATTERN_TYPE.STRATEGY;
         }

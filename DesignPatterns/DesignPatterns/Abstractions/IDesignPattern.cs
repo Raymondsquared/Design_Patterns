@@ -2,7 +2,7 @@
 {
     public interface IDesignPattern
     {
-        CONSTANTS.DESIGN_PATTERN_TYPE GetType();
+        CONSTANTS.DESIGN_PATTERN_TYPE Type();
         void Run();
     }
 }

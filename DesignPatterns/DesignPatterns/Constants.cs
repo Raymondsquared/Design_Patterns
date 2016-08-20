@@ -4,8 +4,17 @@
     {
         public enum DESIGN_PATTERN_TYPE
         {
-            STRATEGY
+            STRATEGY,
+            FACTORY_METHOD
         };
+
+        public enum VEHICLES
+        {
+            CAR,
+            BIKE,
+            BOAT,
+            PLANE
+        }
 
         public static class TEXTS
         {
