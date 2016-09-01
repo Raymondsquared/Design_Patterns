@@ -1,6 +1,6 @@
 ﻿using DesignPatterns.FactoryMethod.Solution.Abstractions;
 
-namespace DesignPatterns.FactoryMethod.Solution.Model.Parts
+namespace DesignPatterns.FactoryMethod.Solution.Models.Parts
 {
     public class Tyre : Part
     {

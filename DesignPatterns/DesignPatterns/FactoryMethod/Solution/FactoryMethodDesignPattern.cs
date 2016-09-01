@@ -1,7 +1,6 @@
 ﻿using System;
 using DesignPatterns.Abstractions;
 using DesignPatterns.FactoryMethod.Solution.Implementations;
-using DesignPatterns.Strategy.Solution.Model;
 
 namespace DesignPatterns.FactoryMethod.Solution
 {

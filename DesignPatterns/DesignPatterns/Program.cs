@@ -1,6 +1,7 @@
 ﻿using System;
 using System.Collections.Generic;
 using DesignPatterns.Abstractions;
+using DesignPatterns.Command.Solution;
 using DesignPatterns.FactoryMethod.Solution;
 using DesignPatterns.Strategy.Solution;
 
@@ -18,6 +19,7 @@ namespace DesignPatterns
             IList<IDesignPattern> dessignPatterns = new List<IDesignPattern>();
             dessignPatterns.Add(new StrategyDesignPattern());
             dessignPatterns.Add(new FactoryMethodDesignPattern());
+            dessignPatterns.Add(new CommandDesignPattern());
 
             return dessignPatterns;
         }

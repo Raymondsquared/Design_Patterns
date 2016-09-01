@@ -2,7 +2,7 @@
 using DesignPatterns.Strategy.Solution.Abstractions;
 using DesignPatterns.Strategy.Solution.Implementations;
 
-namespace DesignPatterns.Strategy.Solution.Model
+namespace DesignPatterns.Strategy.Solution.Models
 {
     public class Duck : Animal
     {

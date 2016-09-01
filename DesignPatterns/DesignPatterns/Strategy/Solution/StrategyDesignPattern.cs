@@ -1,6 +1,6 @@
 ﻿using System;
 using DesignPatterns.Abstractions;
-using DesignPatterns.Strategy.Solution.Model;
+using DesignPatterns.Strategy.Solution.Models;
 
 namespace DesignPatterns.Strategy.Solution
 {

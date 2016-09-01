@@ -1,7 +1,7 @@
 ﻿using DesignPatterns.FactoryMethod.Solution.Abstractions;
-using DesignPatterns.FactoryMethod.Solution.Model.Parts;
+using DesignPatterns.FactoryMethod.Solution.Models.Parts;
 
-namespace DesignPatterns.FactoryMethod.Solution.Model.Vehicles
+namespace DesignPatterns.FactoryMethod.Solution.Models.Vehicles
 {
     public class Boat : Vehicle
     {

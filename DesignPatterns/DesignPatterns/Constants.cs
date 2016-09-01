@@ -5,7 +5,8 @@
         public enum DESIGN_PATTERN_TYPE
         {
             STRATEGY,
-            FACTORY_METHOD
+            FACTORY_METHOD,
+            COMMAND
         };
 
         public enum VEHICLES

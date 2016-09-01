@@ -2,18 +2,18 @@
 using DesignPatterns.Strategy.Solution.Abstractions;
 using DesignPatterns.Strategy.Solution.Implementations;
 
-namespace DesignPatterns.Strategy.Solution.Model
+namespace DesignPatterns.Strategy.Solution.Models
 {
-    public class Bird : Animal
+    public class Dog : Animal
     {
-        public Bird()
+        public Dog()
         {
-            _flyStrategy = new HighFlyStrategycs();
+            _flyStrategy = new CantFlyStrategy();
         }
 
         public override void Display()
         {
-            Console.WriteLine("Display Bird.");
+            Console.WriteLine("Display Dog.");
         }
     }
 }

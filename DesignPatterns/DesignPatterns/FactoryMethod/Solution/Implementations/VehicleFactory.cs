@@ -1,5 +1,5 @@
 ﻿using DesignPatterns.FactoryMethod.Solution.Abstractions;
-using DesignPatterns.FactoryMethod.Solution.Model.Vehicles;
+using DesignPatterns.FactoryMethod.Solution.Models.Vehicles;
 
 namespace DesignPatterns.FactoryMethod.Solution.Implementations
 {
