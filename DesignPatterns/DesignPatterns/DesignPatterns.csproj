@@ -56,6 +56,13 @@
     <Compile Include="Command\Solution\Models\Lamp.cs" />
     <Compile Include="Command\Solution\CommandDesignPattern.cs" />
     <Compile Include="Constants.cs" />
+    <Compile Include="Facade\Solutions\FacadeDesignPattern.cs" />
+    <Compile Include="Facade\Solutions\SubSystems\Income.cs" />
+    <Compile Include="Facade\Solutions\SubSystems\Savings.cs" />
+    <Compile Include="Facade\Solutions\SubSystems\Credit.cs" />
+    <Compile Include="Facade\Solutions\Models\Customer.cs" />
+    <Compile Include="Facade\Solutions\SubSystems\Loan.cs" />
+    <Compile Include="Facade\Solutions\Implementations\BankFacade.cs" />
     <Compile Include="FactoryMethod\Solution\Abstractions\Part.cs" />
     <Compile Include="FactoryMethod\Solution\Abstractions\Vehicle.cs" />
     <Compile Include="FactoryMethod\Solution\FactoryMethodDesignPattern.cs" />

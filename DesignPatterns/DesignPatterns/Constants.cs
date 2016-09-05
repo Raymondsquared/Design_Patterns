@@ -6,7 +6,8 @@
         {
             STRATEGY,
             FACTORY_METHOD,
-            COMMAND
+            COMMAND,
+            FACADE
         };
 
         public enum VEHICLES

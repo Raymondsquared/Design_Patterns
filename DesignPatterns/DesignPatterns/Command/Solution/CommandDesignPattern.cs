@@ -30,8 +30,7 @@ namespace DesignPatterns.Command.Solution
             IInvoker onMasterInvoker = new Invoker(new OnCommand(masterReceivers));
             IInvoker offMasterInvoker = new Invoker(new OffCommand(masterReceivers));
             IInvoker upMasterInvoker = new Invoker(new UpCommand(masterReceivers));
-            IInvoker downMasterInvoker = new Invoker(new DownCommand(masterReceivers));
-
+            IInvoker downMasterInvoker = new Invoker(new DownCommand(masterReceivers));        
 
             IInvoker onTvInvoker = new Invoker(new OnCommand(tvReceivers));
             IInvoker offTvInvoker = new Invoker(new OffCommand(tvReceivers));
@@ -41,19 +40,19 @@ namespace DesignPatterns.Command.Solution
             Console.WriteLine(lamp);
             Console.WriteLine(television);      
             
-            Console.WriteLine("\nSwitching On :");
+            Console.WriteLine("\nSwitching All On :");
             onMasterInvoker.Invoke();
 
             Console.WriteLine(lamp);
             Console.WriteLine(television);
 
-            Console.WriteLine("\nPressing Down :");
+            Console.WriteLine("\nPressing All Down :");
             downMasterInvoker.Invoke();
 
             Console.WriteLine(lamp);
             Console.WriteLine(television);
 
-            Console.WriteLine("\nPressing Up 13x :");
+            Console.WriteLine("\nPressing All Up 13x :");
             upMasterInvoker.Invoke();
             upMasterInvoker.Invoke();
             upMasterInvoker.Invoke();
@@ -72,13 +71,13 @@ namespace DesignPatterns.Command.Solution
             Console.WriteLine(lamp);
             Console.WriteLine(television);
 
-            Console.WriteLine("\nSwitching Off :");
+            Console.WriteLine("\nSwitching All Off :");
             offMasterInvoker.Invoke();
 
             Console.WriteLine(lamp);
             Console.WriteLine(television);
 
-            Console.WriteLine("\nSwitching TV On :");
+            Console.WriteLine("\nSwitching Only TV On :");
             onTvInvoker.Invoke();
 
             Console.WriteLine(lamp);
